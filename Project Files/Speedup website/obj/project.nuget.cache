@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nh8RI7U9/YGL+YNY6oFPwE5kJST4OvcY+vC96kBJf8n4yUcVsZuFdx2TMAdRqg8NTF6F/qO58DXIxSupeFuxAg==",
+  "dgSpecHash": "ePbvFVKVCmfMiD2fULzxEPQd3l/c09JtU/yx5qF+dZJ8GvCF9CxVJZ550qhRdFQgYVImsoX3w38Dz5Jc6E4cSQ==",
   "success": true,
   "projectFilePath": "E:\\Projects\\SpeedUp Website\\Project Files\\Speedup website\\Speedup website.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\abbas\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
