@@ -1,0 +1,26 @@
+E:\Projects\SpeedUp Website\Project Files\Speedup website\bin\Debug\net6.0\appsettings.Development.json
+E:\Projects\SpeedUp Website\Project Files\Speedup website\bin\Debug\net6.0\appsettings.json
+E:\Projects\SpeedUp Website\Project Files\Speedup website\bin\Debug\net6.0\Speedup website.staticwebassets.runtime.json
+E:\Projects\SpeedUp Website\Project Files\Speedup website\bin\Debug\net6.0\Speedup website.exe
+E:\Projects\SpeedUp Website\Project Files\Speedup website\bin\Debug\net6.0\Speedup website.deps.json
+E:\Projects\SpeedUp Website\Project Files\Speedup website\bin\Debug\net6.0\Speedup website.runtimeconfig.json
+E:\Projects\SpeedUp Website\Project Files\Speedup website\bin\Debug\net6.0\Speedup website.dll
+E:\Projects\SpeedUp Website\Project Files\Speedup website\bin\Debug\net6.0\Speedup website.pdb
+E:\Projects\SpeedUp Website\Project Files\Speedup website\obj\Debug\net6.0\Speedup website.csproj.AssemblyReference.cache
+E:\Projects\SpeedUp Website\Project Files\Speedup website\obj\Debug\net6.0\Speedup website.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\SpeedUp Website\Project Files\Speedup website\obj\Debug\net6.0\Speedup website.AssemblyInfoInputs.cache
+E:\Projects\SpeedUp Website\Project Files\Speedup website\obj\Debug\net6.0\Speedup website.AssemblyInfo.cs
+E:\Projects\SpeedUp Website\Project Files\Speedup website\obj\Debug\net6.0\Speedup website.csproj.CoreCompileInputs.cache
+E:\Projects\SpeedUp Website\Project Files\Speedup website\obj\Debug\net6.0\Speedup website.MvcApplicationPartsAssemblyInfo.cache
+E:\Projects\SpeedUp Website\Project Files\Speedup website\obj\Debug\net6.0\Speedup website.RazorAssemblyInfo.cache
+E:\Projects\SpeedUp Website\Project Files\Speedup website\obj\Debug\net6.0\Speedup website.RazorAssemblyInfo.cs
+E:\Projects\SpeedUp Website\Project Files\Speedup website\obj\Debug\net6.0\staticwebassets.build.json
+E:\Projects\SpeedUp Website\Project Files\Speedup website\obj\Debug\net6.0\staticwebassets.development.json
+E:\Projects\SpeedUp Website\Project Files\Speedup website\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+E:\Projects\SpeedUp Website\Project Files\Speedup website\obj\Debug\net6.0\scopedcss\bundle\Speedup website.styles.css
+E:\Projects\SpeedUp Website\Project Files\Speedup website\obj\Debug\net6.0\scopedcss\projectbundle\Speedup website.bundle.scp.css
+E:\Projects\SpeedUp Website\Project Files\Speedup website\obj\Debug\net6.0\Speedup website.dll
+E:\Projects\SpeedUp Website\Project Files\Speedup website\obj\Debug\net6.0\refint\Speedup website.dll
+E:\Projects\SpeedUp Website\Project Files\Speedup website\obj\Debug\net6.0\Speedup website.pdb
+E:\Projects\SpeedUp Website\Project Files\Speedup website\obj\Debug\net6.0\Speedup website.genruntimeconfig.cache
+E:\Projects\SpeedUp Website\Project Files\Speedup website\obj\Debug\net6.0\ref\Speedup website.dll
