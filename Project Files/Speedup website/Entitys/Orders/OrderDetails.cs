@@ -1,0 +1,30 @@
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Speedup_website.Entitys.Orders
+{
+    public class OrderDetails
+    {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int id { get; set; }
+
+        [Required]
+        public int user_id { get; set; }
+
+        [Range(0,9999999)]
+        public decimal total { get; set; }
+
+        [Required]
+        public DateTime createdAt { get; set; } = DateTime.Now;
+
+        public DateTime? modifiedAt { get; set; } = null;
+
+        [ForeignKey(nameof(user_id))]
+        public People.User? user { get; set; }
+
+        public IList<OrderItem>? orderItems { get; set; }
+
+        public PaymentDetails? paymentDetails { get; set; }
+    }
+}
