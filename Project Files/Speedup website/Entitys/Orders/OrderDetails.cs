@@ -21,10 +21,10 @@ namespace Speedup_website.Entitys.Orders
         public DateTime? modifiedAt { get; set; } = null;
 
         [ForeignKey(nameof(user_id))]
-        public People.User? user { get; set; }
+        public People.User user { get; set; }
 
-        public IList<OrderItem>? orderItems { get; set; }
+        public IList<OrderItem> orderItems { get; set; }
 
-        public PaymentDetails? paymentDetails { get; set; }
+        public PaymentDetails paymentDetails { get; set; }
     }
 }

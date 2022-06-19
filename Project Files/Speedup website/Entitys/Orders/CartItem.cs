@@ -15,6 +15,8 @@ namespace Speedup_website.Entitys.Orders
         [Required]
         public int product_id { get; set; }
 
+        public int? discount_id { get; set; }
+
         [Required]
         public int quantity { get; set; }
 
@@ -25,9 +27,12 @@ namespace Speedup_website.Entitys.Orders
 
 
         [ForeignKey(nameof(session_id))]
-        public ShoppingSassion? shoppingSassion { get; set; }
+        public ShoppingSassion shoppingSassion { get; set; }
 
         [ForeignKey(nameof(product_id))]
-        public Products.Product? Product { get; set; } = null;
+        public Products.Product Product { get; set; }
+
+        [ForeignKey(nameof(discount_id))]
+        public Discount? discount { get; set; } = null;
     }
 }

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speedup website", "Speedup website.csproj", "{5FA65151-9B29-417E-BA46-4C780C83036D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Speedup website", "Speedup website.csproj", "{5FA65151-9B29-417E-BA46-4C780C83036D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

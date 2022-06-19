@@ -11,11 +11,11 @@ public class UserPayment
     [Required]
     public int user_id { get; set; }
 
-    [ForeignKey(nameof(user_id))]
-    public User? userDetailes { get; set; }
-
     [Required]
     public int paymentType_id { get; set; }
+
+    [ForeignKey(nameof(user_id))]
+    public User? userDetailes { get; set; }
 
     [ForeignKey(nameof(paymentType_id))]
     public CashingType? cashingType { get; set; }

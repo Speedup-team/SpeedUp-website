@@ -1,9 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Speedup_website.Entitys.People
 {
-    public class User
+    public class User : IdentityUser
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -12,7 +13,7 @@ namespace Speedup_website.Entitys.People
         public int? mobilephone { get; set; } = null;
 
         [Required]
-        [StringLength(50)]
+        [StringLength(25)]
         public string userName { get; set; } = "user name";
 
         [Required]

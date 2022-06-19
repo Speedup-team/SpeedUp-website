@@ -1,0 +1,36 @@
+﻿@using Speedup_website.Entitys.Products
+@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "Home page";
+    List<Product> cart = new List<Product>();
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To Speedup website</h1>
+</div>
+
+<table border="1px" width="100%">
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th>product description</th>
+            <th>product price</th>
+        </tr>
+    </thead>
+    @foreach(var item in Model){
+        <tr>
+            <td width="33%">
+                @item.name
+            </td>
+            <td width="33%">
+                @item.description
+            </td>
+            <td width="33%">
+                @item.price
+            </td>
+            <td>
+                @Html.ActionLink("Add to Cart","cart.add(item)",new {id = item.id})
+            </td>
+        </tr>
+    }
+</table>

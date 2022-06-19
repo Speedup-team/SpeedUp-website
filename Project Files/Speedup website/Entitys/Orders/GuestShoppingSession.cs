@@ -21,7 +21,8 @@ namespace Speedup_website.Entitys.Orders
 
         public DateTime? modifiedAt { get; set; }
 
-        public People.Guest? guest { get; set; }
+        [ForeignKey(nameof(guest_id))]
+        public People.Guest guest { get; set; }
         public IList<GuestCartItem>? cartItems { get; set; }
     }
 }

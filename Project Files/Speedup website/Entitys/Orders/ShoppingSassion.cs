@@ -10,7 +10,7 @@ namespace Speedup_website.Entitys.Orders
         public int id { get; set; }
 
         [Required]
-        public int guest_id { get; set; }
+        public int user_id { get; set; }
 
         [Range(0,9999999)]
         public decimal total { get; set; }
@@ -20,8 +20,8 @@ namespace Speedup_website.Entitys.Orders
 
         public DateTime? modifiedAt { get; set; } = null;
 
-        [ForeignKey(nameof(guest_id))]
-        public People.User? user { get; set; }
+        [ForeignKey(nameof(user_id))]
+        public People.User user { get; set; }
         public IList<CartItem>? items { get; set; }
     }
 }

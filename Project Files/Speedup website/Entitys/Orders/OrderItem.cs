@@ -15,14 +15,19 @@ namespace Speedup_website.Entitys.Orders
         [Required]
         public int product_id { get; set; }
 
+        public int? discount_id { get; set; }
+
         [Range(0,9999999)]
         public decimal quantity { get; set; }
 
 
         [ForeignKey(nameof(order_id))]
-        public OrderDetails? orderDetails { get; set; }
+        public OrderDetails orderDetails { get; set; }
 
         [ForeignKey(nameof(product_id))]
-        public Products.Product? Product { get; set; }
+        public Products.Product Product { get; set; }
+
+        [ForeignKey(nameof(discount_id))]
+        public Discount? discount { get; set; } = null;
     }
 }

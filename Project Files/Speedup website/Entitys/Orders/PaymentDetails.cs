@@ -28,9 +28,9 @@ namespace Speedup_website.Entitys.Orders
 
 
         [ForeignKey(nameof(order_id))]
-        public OrderDetails? orderDetails { get; set; }
+        public OrderDetails orderDetails { get; set; }
 
         [ForeignKey(nameof(cashingType_id))]
-        public People.CashingType? cashingType { get; set; }
+        public People.CashingType cashingType { get; set; }
     }
 }

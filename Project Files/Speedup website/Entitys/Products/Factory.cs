@@ -11,10 +11,10 @@ namespace Speedup_website.Entitys.Products
 
         [Required]
         [StringLength(100)]
-        public string name { get; set; }=string.Empty;
+        public string name { get; set; } = string.Empty;
 
-        [Column(TypeName ="ntext")]
-        public string description { get; set; }=string.Empty;
+        [Column(TypeName = "ntext")]
+        public string description { get; set; } = string.Empty;
 
         [Required]
         public DateTime createdAt { get; } = DateTime.Now;
@@ -22,5 +22,7 @@ namespace Speedup_website.Entitys.Products
         public DateTime? removedAt { get; set; } = null;
 
         public DateTime? modifiedAt { get; set; } = null;
+
+        public List<Product>? products { get; set; } = null;
     }
 }

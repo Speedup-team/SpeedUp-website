@@ -11,11 +11,11 @@ public class OwnerCashingOut
     [Required]
     public int owner_id { get; set; }
 
-    [ForeignKey(nameof(owner_id))]
-    public Owner? owner { get; set; }
-
     [Required]
     public int cashingType_id { get; set; }
+
+    [ForeignKey(nameof(owner_id))]
+    public Owner? owner { get; set; }
 
     [ForeignKey(nameof(cashingType_id))]
     public CashingType? cashingType { get; set; }
